@@ -1,0 +1,146 @@
+/*!
+--------------------------------------------------------------------------------------------------------------------------------
+ !!!!!ATTENTION!!!!!!!!!!!!!!!!!!!!!!!THE FOLLOWING CODE HAS BEEN MODIFIED FROM THE ONLINE TEMPLATE AVAILABLE UNDER: 
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      font-size: 18px;
+}
+
+body{
+
+  background-image: url("mainBackground.jpg");
+	background-size: 1500px 800px; 
+}
+
+h1.MainTitle{
+	position: relative;
+	color: #b6bfc8;
+	text-shadow: 2px 2px #000000;
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 3px solid #eee;
+	font-size: 2em;
+ }
+ 
+
+ /*Add this later it works*/
+img {
+  margin: 0 0 0;
+  page-break-inside: avoid;
+  border:dotted grey;
+  width: 200px;
+  height: 160px;
+  max-width: 100% !important;
+  vertical-align: middle;
+}
+
+a.uni:hover,
+.uni:focus{
+  cursor:pointer;
+  color: white;
+}
+
+a.prog:hover,
+.prog:focus{
+  cursor:pointer;
+  color: white;
+}
+
+a.min:hover,
+.min:focus{
+  cursor:pointer;
+  color: white;
+}
+.background {
+  display: block;
+  padding: 9.5px;
+  margin: -10em 61em 10px;
+  font-size: 15px;
+  line-height: 2;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: rgba(200, 200, 200, .7);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 25%;
+}
+
+.background > a {
+  font-weight: bold;
+  font-size: 100%;
+}
+
+
+button{
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  padding: 20px;
+}
+
+.projects{
+  font-weight: bold;
+  display: block;
+  padding: 9.5px;
+  margin: 25em 70em 10px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 5;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: rgba(200, 200, 200, .7);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 15%;
+}
+
+
+.projects:hover,
+.projects:focus{
+    cursor: pointer; 
+    color: white;
+    background-color: rgba(200, 200, 200, .3);
+}
+
+
+
+.history{
+  font-weight: bold;
+  display: block;
+  padding: 9.5px;
+  margin: -16em 70em 10px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 5;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: rgba(200, 200, 200, .7);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 15%;
+}
+
+.history:hover,
+.history:focus{
+    cursor: pointer; 
+    color: white;
+    background-color: rgba(200, 200, 200, .3);
+}
+
