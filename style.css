@@ -9,12 +9,34 @@
 
 
 
+
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
       font-size: 18px;
 }
+
+nav{
+  margin: -10px -8px 0px;
+  display: block;
+  background-color: rgba(0, 0, 0, .6);
+  line-height: 3;
+}
+
+
+nav > a.home{
+  margin: 0px 10px 0px;
+  color: white;
+}
+
+nav > a.home:hover, 
+nav > a.home:focus{
+  color: grey;
+  cursor: pointer;
+}
+
 
 body{
 
@@ -27,7 +49,7 @@ h1.MainTitle{
 	color: #b6bfc8;
 	text-shadow: 2px 2px #000000;
   padding-bottom: 9px;
-  margin: 40px 0 20px;
+  margin: 15px 0 20px;
   border-bottom: 3px solid #eee;
 	font-size: 2em;
  }
