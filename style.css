@@ -19,6 +19,7 @@ html {
 }
 
 nav{
+  text-align: left;
   margin: -10px -8px 0px;
   display: block;
   background-color: rgba(0, 0, 0, .6);
@@ -26,16 +27,37 @@ nav{
 }
 
 
-nav > a.home{
+nav > a{
   margin: 0px 10px 0px;
   color: white;
 }
 
-nav > a.home:hover, 
-nav > a.home:focus{
+
+nav > a:hover, 
+nav > a:focus{
   color: grey;
+  /*cursor: pointer;*/
+}
+
+nav > a.help:hover,
+nav > a.help:focus{
+  cursor: help;
+}
+
+nav > a.home:hover,
+nav > a.home:focus{
   cursor: pointer;
 }
+nav > a.bgd:hover,
+nav > a.bgd:focus{
+  cursor: pointer;
+}
+nav > a.contact:hover,
+nav > a.contact:focus{
+  cursor: pointer;
+}
+
+
 
 
 body{
@@ -59,7 +81,7 @@ h1.MainTitle{
 img {
   margin: 0 0 0;
   page-break-inside: avoid;
-  border:dotted grey;
+  border:solid grey;
   width: 200px;
   height: 160px;
   max-width: 100% !important;
@@ -166,3 +188,15 @@ button{
     background-color: rgba(200, 200, 200, .3);
 }
 
+
+
+input[type="text"]{
+  text-align: center;
+  border: solid grey;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.5);
+  line-height: 3;
+  margin: 6em 6.5em 0em;
+  font-size: 40px;
+  color: white;
+}

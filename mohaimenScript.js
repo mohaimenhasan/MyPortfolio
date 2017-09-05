@@ -10,12 +10,21 @@ function userName(){
 
 }
 
+function loadHome(){
+	window.location = "header.html"
+}
+
 function loadUniversity(){
 	retval = confirm("You will be redirected to the university website. Do you wish to continue?");
 	if (retval == true) window.location = "https://www.utoronto.ca/";
 	
 
 	}
+
+
+function loadBackground(){
+	window.location = "background.html";
+}
 
 
 function loadMinor(){
@@ -30,20 +39,17 @@ function loadProgram(){
 
 
 function loadProjects(){
-	alert("Loading Projects");
 	window.location ="projects.html";
 }
 
 function loadHelp(){
-	alert("You are being redirected to help");
 	window.location = "help.html";
 }
 
 function loadHistory(){
-	alert("Loading Mohaimen's History");
 	window.location = "history.html";
 }
 
-function newLine(){
-	
+function contactMe(){
+	window.location = "contactMe.html";
 }
