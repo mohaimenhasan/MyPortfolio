@@ -5,11 +5,6 @@ functions are working. I also double checked by putting them under <script> tag.
 
 */
 
-function userName(){
-	
-
-}
-
 function loadHome(){
 	window.location = "header.html"
 }
