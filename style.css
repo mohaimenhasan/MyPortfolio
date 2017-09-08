@@ -159,6 +159,24 @@ button{
 }
 
 
+.choose{
+  text-align: center;
+  display: block;
+  border-radius: 80%;
+  background: rgba(255, 255, 255, 0.3);
+  font-size: 40px;
+  width: 15%;
+  line-height: 5;
+  color: black;
+  margin: 1em 13em 10px;
+}
+
+.choose:hover,
+.choose:focus{
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+}
 
 .history{
   font-weight: bold;
@@ -229,13 +247,13 @@ input[type="submit"]
   text-align: center;
   display: block;
   padding: 9.5px;
-  margin: 5em 0em 10px;
+  margin: 2.5em 1em 10px;
   font-size: 30px;
   line-height: 5;
   color: #333;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(255, 255, 255, .3);
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 35%;
@@ -259,7 +277,7 @@ input[type="submit"]
   color: #333;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(255, 255, 255, .3);
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 35%;
@@ -276,13 +294,13 @@ input[type="submit"]
   text-align: center;
   display: block;
   padding: 9.5px;
-  margin: 4em 0em 10px;
+  margin: 1em 1em 10px;
   font-size: 30px;
   line-height: 5;
   color: #333;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(255, 255, 255, .3);
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 35%;
@@ -306,7 +324,7 @@ input[type="submit"]
   color: #333;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(255, 255, 255, .3);
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 35%;
